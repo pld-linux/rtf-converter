@@ -21,7 +21,7 @@ tags and given an HTML header. It attempts to produce HTML 4.0
 %description -l pl
 Program jest przeznaczony do konwersji plików RTF do HTML. Jako wynik
 otrzymujemy tre¶æ dokumentu, który nale¿y otoczyæ tagami BODY i
-odpowiednimi nag³ówkami HTML. Program stara siê generowaæ kod zgodnym
+odpowiednimi nag³ówkami HTML. Program stara siê generowaæ kod zgodny
 z HTML 4.0 (strict).
 
 %prep
