@@ -1,5 +1,5 @@
 Summary:	Converts RTF files to HTML
-Summary(pl.UTF-8):   Konwerter plików RTF do formatu HTML
+Summary(pl.UTF-8):	Konwerter plików RTF do formatu HTML
 Name:		rtf-converter
 Version:	1.1
 Release:	1
