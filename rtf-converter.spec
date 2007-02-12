@@ -1,5 +1,5 @@
 Summary:	Converts RTF files to HTML
-Summary(pl):	Konwerter plików RTF do formatu HTML
+Summary(pl.UTF-8):   Konwerter plikÃ³w RTF do formatu HTML
 Name:		rtf-converter
 Version:	1.1
 Release:	1
@@ -18,10 +18,10 @@ produces only the HTML body code which will need to be wrapped in BODY
 tags and given an HTML header. It attempts to produce HTML 4.0
 (strict) compliant html code.
 
-%description -l pl
-Program jest przeznaczony do konwersji plików RTF do HTML. Jako wynik
-otrzymujemy tre¶æ dokumentu, który nale¿y otoczyæ tagami BODY i
-odpowiednimi nag³ówkami HTML. Program stara siê generowaæ kod zgodny
+%description -l pl.UTF-8
+Program jest przeznaczony do konwersji plikÃ³w RTF do HTML. Jako wynik
+otrzymujemy treÅ›Ä‡ dokumentu, ktÃ³ry naleÅ¼y otoczyÄ‡ tagami BODY i
+odpowiednimi nagÅ‚Ã³wkami HTML. Program stara siÄ™ generowaÄ‡ kod zgodny
 z HTML 4.0 (strict).
 
 %prep
