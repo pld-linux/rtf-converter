@@ -7,8 +7,9 @@ License:	GPL
 Group:		Applications/Text
 Source0:	http://www.kaitiaki.org.nz/download/%{name}_%{version}.tar.gz
 # Source0-md5:	224c2855e68d1aea5c4f0230cbc1879b
-URL:		http://www.kaitiaki.org.nz/download/
 Patch0:		%{name}-cflags.patch
+Patch1:		%{name}-includes.patch
+URL:		http://www.kaitiaki.org.nz/download/
 BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -27,10 +28,12 @@ z HTML 4.0 (strict).
 %prep
 %setup -q -n rtf
 %patch0 -p1
+%patch1 -p1
 
 %build
 %{__make} \
-	CXXFLAGS="%{rpmcflags}"
+	CXX="%{__cxx}" \
+	CXXFLAGS="%{rpmcxxflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT

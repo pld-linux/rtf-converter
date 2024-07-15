@@ -1,0 +1,20 @@
+--- rtf/rtftohtml.cpp.orig	2001-05-12 14:18:42.000000000 +0200
++++ rtf/rtftohtml.cpp	2024-07-15 21:28:40.741126946 +0200
+@@ -16,6 +16,7 @@
+  */ 
+ // rtftohtml.cpp
+ 
++#include <cstring>
+ #include <string>
+ #include <vector>
+ #include <stack>
+--- rtf/tokeniser.cpp.orig	2003-05-25 11:09:26.000000000 +0200
++++ rtf/tokeniser.cpp	2024-07-15 21:29:25.427551525 +0200
+@@ -17,6 +17,7 @@
+ // tokeniser.cpp: implementation of the Tokeniser class.
+ //
+ //////////////////////////////////////////////////////////////////////
++#include <cstring>
+ #include <string>
+ 
+ using namespace std ;
