@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Konwerter plików RTF do formatu HTML
 Name:		rtf-converter
 Version:	1.1
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		Applications/Text
 Source0:	http://www.kaitiaki.org.nz/download/%{name}_%{version}.tar.gz
 # Source0-md5:	224c2855e68d1aea5c4f0230cbc1879b
